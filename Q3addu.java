@@ -2,7 +2,7 @@
 
 import java.io.*;
 
-class qthreeaddu {
+class Q3addu {
     public static void main(String[] args) throws IOException {
         int a, b, c;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

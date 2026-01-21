@@ -2,7 +2,7 @@
 
 import java.io.*;
 
-public class qfoursubu {
+public class Q4subu {
     public static void main(String[] args) throws IOException {
         int a, b, c;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
