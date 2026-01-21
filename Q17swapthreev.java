@@ -6,21 +6,21 @@ import java.io.*;
 public class Q17swapthreev {
 
     public static void main(String[] args) throws IOException {
-        int x, y, temp;
+        int a, b, temp;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.print("Enter first number (x): ");
-        x = Integer.parseInt(br.readLine());
-        System.out.print("Enter second number (y): ");
-        y = Integer.parseInt(br.readLine());
+        System.out.print("Enter first number (a): ");
+        a = Integer.parseInt(br.readLine());
+        System.out.print("Enter second number (b): ");
+        b = Integer.parseInt(br.readLine());
         
         // Swapping using a third variable
-        temp = x;
-        x = y;
-        y = temp;
+        temp = a;
+        a = b;
+        b = temp;
         
         System.out.println("After swapping:");
-        System.out.println("First number (x): " + x);
-        System.out.println("Second number (y): " + y);
+        System.out.println("First number (a): " + a);
+        System.out.println("Second number (b): " + b);
     }
     
 }

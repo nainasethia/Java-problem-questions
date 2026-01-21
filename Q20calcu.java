@@ -3,7 +3,6 @@
 import java.io.*;
 
 public class Q20calcu {
-
     public static void main(String[] args) throws IOException {
         double num1, num2, result;
         char operator;

@@ -9,7 +9,7 @@ public class Q14dotors {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("Enter amount in dollars: ");
         dollar = Double.parseDouble(br.readLine());
-        rupees = dollar * 82.0; // Assuming 1 dollar = 82 rupees
+        rupees = dollar * 91.0; // Assuming 1 dollar = 91 rupees
         System.out.println("Amount in rupees: " + rupees);
     }
     
